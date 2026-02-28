@@ -1,0 +1,21 @@
+{
+    "name": "graph-sync",
+    "version": "1.0.0",
+    "description": "Automatically synchronizes the global graph view to focus on the active document.",
+    "main": "main.js",
+    "scripts": {
+        "dev": "esbuild main.ts --watch --bundle --format=cjs --platform=node --external:obsidian --outfile=main.js",
+        "build": "esbuild main.ts --bundle --format=cjs --platform=node --external:obsidian --outfile=main.js"
+    },
+    "keywords": [],
+    "author": "Nedian0Brien",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "@types/node": "^16.11.6",
+        "esbuild": "^0.17.3",
+        "obsidian": "^1.1.1",
+        "tslib": "^2.4.0",
+        "typescript": "^4.5.2"
+    }
+}

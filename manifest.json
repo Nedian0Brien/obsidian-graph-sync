@@ -1,0 +1,10 @@
+{
+    "id": "graph-sync",
+    "name": "Graph Sync",
+    "version": "1.0.0",
+    "minAppVersion": "0.15.0",
+    "description": "Automatically synchronizes the global graph view to focus on the active document.",
+    "author": "Nedian0Brien",
+    "authorUrl": "https://github.com/Nedian0Brien",
+    "isDesktopOnly": false
+}
